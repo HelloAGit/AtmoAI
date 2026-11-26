@@ -1,0 +1,2 @@
+# AtmoAI
+atmospheric analysis app
