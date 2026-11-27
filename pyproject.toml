@@ -19,5 +19,8 @@ dependencies = [
     "streamlit>=1.35.0"
 ]
 
+[tool.setuptools.packages.find]
+include = ["api", "api.*", "core", "core.*", "models", "models.*", "frontend", "frontend.*"]
+
 [tool.pytest.ini_options]
 pythonpath = ["."]
